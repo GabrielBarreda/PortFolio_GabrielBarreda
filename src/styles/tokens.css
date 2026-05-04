@@ -1,0 +1,23 @@
+:root {
+  /* Couleurs */
+  --bg:        #020c1b;
+  --bg2:       #040f22;
+  --surface-1: rgba(4, 18, 52, 0.92);
+  --surface-2: rgba(6, 24, 64, 0.60);
+  --blue:      #7eb8f7;
+  --blue-l:    #b8d8ff;
+  --blue-d:    #3a6fa8;
+  --white:     #ddeeff;
+  --muted:     #6a7e96;
+  --border:    rgba(100, 160, 230, 0.16);
+  --gold:      #f0c060;
+
+  /* Typographie */
+  --font-display: 'Syne', sans-serif;
+  --font-body:    'Space Grotesk', sans-serif;
+  --font-mono:    'DM Mono', monospace;
+
+  /* Easing */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
