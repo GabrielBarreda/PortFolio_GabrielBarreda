@@ -8,13 +8,12 @@ interface SpiralCanvasProps {
 }
 
 const sectionSummaries: Record<string, string> = {
-  "2020": "Fondations Académiques & Débuts Open Source",
-  "2021": "Diplômes & Premières Armes en Entreprise",
-  "2022": "Mobilité & Expériences Web Modernes",
-  "2023": "Consolidation Desktop & Outils de Productivité",
-  "2024": "Expansion FullStack & Innovation Interactive",
-  "2025": "Écosystèmes Sécurisés & Open Source Global",
-  "2026": "Vision Future & Interfaces Quantiques"
+  "2018-2022": "J'ai pus effectuer ma période lycée au sein du lycée Fernand Daguin, où j'ai pus obtenir mon Baccalauréat générale option Mathématiques et Sciences de l'informatique",
+  "2022-2023": "J'ai suite a l'obtention de bac pus intégrer le BTS Services Informatiques aux Organisations que proposait le lycée Gustave Eiffel à Bordeaux",
+  "2023-2024": "Suite a mon premier Stage j'ai donc pus passe en deuxième, faire un second stage et valider mon BTS SIO ",
+  "2024-2025": "Une fois mon BTS SIO en poche, j'ai pus intégrer le Bachelor 3 en alternance chez Ynov Campus Bordeaux avec la même entreprise qui m'avais pris en stage",
+  "2025-2026": "Actuellement en Master 1 en alternance chez Ynov Campus Bordeaux, Suite à la liquidation de la société qui m’employait jusqu’à présent, je suis actuellement à la recherche d’une nouvelle entreprise afin d’effectuer ma dernière année d’alternance.",
+  "2026-2027": "Bientôt en Master 2, peut-être au sein de votre entreprise si mon profil vous intéresse !"
 };
 
 export default function SpiralCanvas({ onHover, onClick }: SpiralCanvasProps) {
