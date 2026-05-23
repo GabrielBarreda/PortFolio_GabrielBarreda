@@ -1,4 +1,10 @@
-export type PageName = 'home' | 'project' | 'about' | 'contact';
+export type PageName = 'home' | 'project' | 'about' | 'contact' | 'expro' | 'expro-detail';
+
+export interface PresentationBlock {
+  type: 'text' | 'image';
+  content: string; // texte ou URL/chemin de l'image
+  caption?: string;
+}
 
 export interface Project {
   id: string;
@@ -11,6 +17,7 @@ export interface Project {
   highlights: string[];
   tech: string[];
   link?: string;
+  presentation?: PresentationBlock[];
 }
 
 export interface Accomplishment {
@@ -32,6 +39,38 @@ export interface SpiralItem {
   highlights?: string[];
   tech?: string[];
   link?: string;
+  presentation?: PresentationBlock[];
+}
+
+export interface Experience {
+  id: string;
+  company: string;
+  role: string;
+  period: string;
+  location: string;
+  type: 'stage' | 'alternance' | 'emploi';
+  color: string;
+  icon: string;
+  summary: string;
+  tech: string[];
+  missions: string[];
+  achievements: string[];
+  linkedProjectId?: string;
+}
+
+export interface ExperienceDetail extends Experience {
+  context: string;
+  problems: string[];
+  solutions: string[];
+  results: string[];
+  feedback: string;
+}
+
+export interface MilestoneConfig {
+  experienceId: string;
+  pathFraction: number;
+  svgX: number;
+  svgY: number;
 }
 
 export interface PortfolioData {

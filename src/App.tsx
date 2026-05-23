@@ -4,18 +4,26 @@ import Home from '@/pages/Home';
 import ProjectDetail from '@/pages/ProjectDetail';
 import About from '@/pages/About';
 import Contact from '@/pages/Contact';
-import type { PageName, SpiralItem } from '@/types';
+import ExPro from '@/pages/ExPro';
+import ExProDetail from '@/pages/ExProDetail';
+import type { PageName, SpiralItem, ExperienceDetail } from '@/types';
 import '@/styles/global.css';
 
 export default function App() {
     const [page, setPage] = useState<PageName>('home');
     const [selectedProject, setSelectedProject] = useState<SpiralItem | null>(null);
+    const [selectedExperience, setSelectedExperience] = useState<ExperienceDetail | null>(null);
 
     const handleNavigate = (p: PageName) => setPage(p);
 
     const handleOpenProject = (item: SpiralItem) => {
         setSelectedProject(item);
         setPage('project');
+    };
+
+    const handleOpenExperience = (exp: ExperienceDetail) => {
+        setSelectedExperience(exp);
+        setPage('expro-detail');
     };
 
     return (
@@ -33,6 +41,17 @@ export default function App() {
             {page === 'about' && <About />}
 
             {page === 'contact' && <Contact />}
+
+            {page === 'expro' && (
+                <ExPro onNavigate={handleNavigate} onOpenDetail={handleOpenExperience} onOpenProject={handleOpenProject} />
+            )}
+
+            {page === 'expro-detail' && selectedExperience && (
+                <ExProDetail
+                    experience={selectedExperience}
+                    onBack={() => setPage('expro')}
+                />
+            )}
         </div>
     );
 }

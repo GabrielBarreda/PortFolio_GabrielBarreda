@@ -19,9 +19,13 @@ export default function Contact() {
     <div
       className="page-in"
       style={{
-        minHeight: '100vh',
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100vh',
         padding: '90px 48px 60px',
-        overflowY: 'auto',
+        overflowY: 'scroll',
         background: 'var(--bg)',
         display: 'flex',
         flexDirection: 'column',

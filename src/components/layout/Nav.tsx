@@ -8,6 +8,7 @@ interface NavProps {
 
 const navLinks: { page: PageName; label: string }[] = [
   { page: 'home', label: 'ACCUEIL' },
+  { page: 'expro', label: 'EXPÉRIENCE' },
   { page: 'about', label: 'À PROPOS' },
   { page: 'contact', label: 'CONTACT' },
 ];
@@ -59,12 +60,24 @@ export default function Nav({ currentPage, onNavigate }: NavProps) {
             style={{
               fontFamily: 'var(--font-display)',
               fontWeight: 800,
-              fontSize: '1rem',
-              letterSpacing: '0.08em',
+              fontSize: '1.4rem',
+              letterSpacing: '0.04em',
               color: 'var(--white)',
             }}
           >
             {DATA.name}
+          </span>
+          <span
+            style={{
+              fontFamily: 'var(--font-mono)',
+              fontSize: '0.52rem',
+              color: 'var(--gold)',
+              letterSpacing: '0.06em',
+              marginTop: '-2px',
+              fontWeight: 600,
+            }}
+          >
+            * EN RECHERCHE D'ALTERNANCE (RYTHME 1SEM / 2SEM)
           </span>
           <span
             className="nav-title"
@@ -74,6 +87,7 @@ export default function Nav({ currentPage, onNavigate }: NavProps) {
               color: 'var(--blue)',
               letterSpacing: '0.14em',
               textTransform: 'uppercase',
+              marginTop: '2px'
             }}
           >
             {DATA.title}
@@ -90,7 +104,7 @@ export default function Nav({ currentPage, onNavigate }: NavProps) {
                 fontFamily: 'var(--font-mono)',
                 fontSize: '0.63rem',
                 letterSpacing: '0.13em',
-                color: currentPage === page ? 'var(--blue)' : 'var(--muted)',
+                color: (currentPage === page || (page === 'expro' && currentPage === 'expro-detail')) ? 'var(--blue)' : 'var(--muted)',
                 padding: 0,
               }}
             >

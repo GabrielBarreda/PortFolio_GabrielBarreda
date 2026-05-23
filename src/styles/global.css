@@ -88,6 +88,68 @@ body {
   transform: translateX(4px);
 }
 
+/* ── ExPro page animations ──────────────────────────────────────────────── */
+
+/* Rover floating bob */
+@keyframes roverFloat {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-3px); }
+}
+
+.rover-float {
+  animation: roverFloat 2.4s ease-in-out infinite;
+}
+
+/* Milestone pulse ring */
+@keyframes milestonePulse {
+  0%   { opacity: 0.5; transform-origin: center; transform: scale(1); }
+  60%  { opacity: 0;   transform-origin: center; transform: scale(1.8); }
+  100% { opacity: 0;   transform-origin: center; transform: scale(1.8); }
+}
+
+.milestone-pulse {
+  animation: milestonePulse 2s ease-out infinite;
+}
+
+/* Waiting dots for "mission pending" state */
+@keyframes missionDotPulse {
+  0%, 80%, 100% { opacity: 0.2; transform: scale(0.8); }
+  40%            { opacity: 1;   transform: scale(1.2); }
+}
+
+.mission-dot {
+  animation: missionDotPulse 1.4s ease-in-out infinite;
+}
+
+/* CSS star field for ExPro / ExProDetail pages */
+.expro-stars {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(1px 1px at 10%  15%, rgba(184,216,255,0.55) 0%, transparent 100%),
+    radial-gradient(1px 1px at 22%  72%, rgba(184,216,255,0.40) 0%, transparent 100%),
+    radial-gradient(1px 1px at 35%  38%, rgba(184,216,255,0.60) 0%, transparent 100%),
+    radial-gradient(1px 1px at 48%   8%, rgba(184,216,255,0.45) 0%, transparent 100%),
+    radial-gradient(1px 1px at 61%  55%, rgba(184,216,255,0.50) 0%, transparent 100%),
+    radial-gradient(1px 1px at 73%  27%, rgba(184,216,255,0.35) 0%, transparent 100%),
+    radial-gradient(1px 1px at 85%  80%, rgba(184,216,255,0.60) 0%, transparent 100%),
+    radial-gradient(1px 1px at 92%  44%, rgba(184,216,255,0.40) 0%, transparent 100%),
+    radial-gradient(1px 1px at  5%  90%, rgba(184,216,255,0.50) 0%, transparent 100%),
+    radial-gradient(1px 1px at 17%  50%, rgba(184,216,255,0.30) 0%, transparent 100%),
+    radial-gradient(1px 1px at 30%  88%, rgba(184,216,255,0.55) 0%, transparent 100%),
+    radial-gradient(1px 1px at 44%  62%, rgba(184,216,255,0.40) 0%, transparent 100%),
+    radial-gradient(1px 1px at 57%  20%, rgba(184,216,255,0.60) 0%, transparent 100%),
+    radial-gradient(1px 1px at 70%  95%, rgba(184,216,255,0.35) 0%, transparent 100%),
+    radial-gradient(1px 1px at 82%  12%, rgba(184,216,255,0.50) 0%, transparent 100%),
+    radial-gradient(1.5px 1.5px at 25%  5%, rgba(126,184,247,0.7)  0%, transparent 100%),
+    radial-gradient(1.5px 1.5px at 68% 35%, rgba(126,184,247,0.6)  0%, transparent 100%),
+    radial-gradient(1.5px 1.5px at 90% 65%, rgba(126,184,247,0.7)  0%, transparent 100%),
+    radial-gradient(1.5px 1.5px at 42% 85%, rgba(126,184,247,0.5)  0%, transparent 100%),
+    radial-gradient(1.5px 1.5px at  8% 42%, rgba(126,184,247,0.6)  0%, transparent 100%);
+}
+
 @media (max-width: 768px) {
   .nav-container {
     padding: 14px 20px !important;
