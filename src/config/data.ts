@@ -40,9 +40,27 @@ export const DATA: PortfolioData = {
     // ...-2022 avant BTS > pas de projet informatique
   ],
   accomplishments: [
-    { id: "acc-2022-1", year: 2022, title: "Baccalauréat général", desc: "Validation du baccalauréat Option Maths et NSI." },
-    { id: "acc-2024-1", year: 2024, title: "Obtention du BTS SIO", desc: "Validation du BTS SIO option SLAM. Formation en alternance avec 1er stage (1 mois en 2023) et 2e stage (2 mois en 2024)." },
-    { id: "acc-2025-1", year: 2025, title: "Obtention du Bachelor", desc: "Validation du Bachelor 3 à Ynov Campus Bordeaux." },
+    {
+      id: "acc-2022-1",
+      year: 2022,
+      title: "Baccalauréat général",
+      shortDesc: "Au cours de ma scolarité au Lycée Fernand Daguin (Mérignac), j'ai pu valider le baccalauréat général avec options Mathématiques, Numérique et Sciences Informatiques (NSI).",
+      desc: "Au cours de ma scolarité au Lycée Fernand Daguin (Mérignac), j'ai pu valider le baccalauréat général avec specialisations Mathématiques et Numérique & Sciences Informatiques (NSI). En première, j'avais également choisi Sciences Économiques et Sociales (SES), mais en terminale, la sélection imposée de deux spécialités m'a amené à délaisser SES pour approfondir davantage ma formation informatique, confirmant ainsi mon orientation progressive.<br><br>J'ai également profité de ces années lycéennes pour passer mon BAFA auprès de différents organismes, dont REMPART. Cette implication m'a permis de développer des compétences d'encadrement et de responsabilité au-delà du cadre scolaire strictement académique.<br><br>L'épreuve orale du baccalauréat a porté sur une thématique spatiale — élément qui inspire aujourd'hui de manière notable la direction visuelle et thématique de ce portfolio. Cette période représente avant tout une phase d'exploration générale des domaines informatiques et scientifiques, sans attrait décisif particulier pour le développement logiciel professionnel. L'intérêt s'est manifesté davantage sur les aspects mathématiques, algorithmiques et scientifiques."
+    },
+    {
+      id: "acc-2024-1",
+      year: 2024,
+      title: "Obtention du BTS SIO",
+      shortDesc: "J'ai pu valider mon BTS Services Informatiques aux Organisations, option SLAM (Solutions Logicielles et Applications Métier), au Lycée Gustave Eiffel (Bordeaux).",
+      desc: "J'ai pu valider mon BTS Services Informatiques aux Organisations, option SLAM (Solutions Logicielles et Applications Métier), au Lycée Gustave Eiffel (Bordeaux). Cette formation de deux années a intégré une expérience formative auprès d'une entreprise partenaire : un premier stage d'une durée d'un mois en début 2023, suivi d'un second stage de deux mois en début 2024, tous deux au sein de la structure Actulog.<br><br>C'est précisément au cours de ces missions en contexte professionnel que j'ai découvert véritablement ma passion pour le développement d'applications métier. Immersion auprès d'une équipe technique expérimentée, compréhension des enjeux réels du secteur (carton et emballage), et responsabilité progressive sur des modules de production m'ont confirmé l'orientation de ma carrière.<br><br>Les projets scolaires réalisés durant ce BTS, bien que formateurs pour l'apprentissage de concepts fondamentaux, n'offrent pas une valeur pédagogique suffisante pour être valorisés au sein de ce portfolio professionnel."
+    },
+    {
+      id: "acc-2025-1",
+      year: 2025,
+      title: "Obtention du Bachelor",
+      shortDesc: "Au cours de ma première année au sein d'Ynov Campus pour le Bachelor 3, en alternance chez Actulog (octobre 2024 — février 2026), mon intérêt pour les technologies web s'est développé progressivement.",
+      desc: "Au cours de ma première année au sein d'Ynov Campus pour le Bachelor 3, en alternance chez Actulog (octobre 2024 — février 2026), mon intérêt pour les technologies web s'est développé progressivement. Cette approche s'est matérialisée par des projets scolaires et des développements personnels me permettant d'explorer des frameworks modernes : React en développement frontend, Angular pour les back-offices, et Symfony (PHP) côté backend.<br><br>Cette transition de compétences marque le passage progressif d'une expertise initiale centrée sur le Client Lourd vers une approche Fullstack plus équilibrée, combinant les connaissances techniques acquises chez Actulog avec les compétences web développées en formation académique."
+    },
   ]
 };
 

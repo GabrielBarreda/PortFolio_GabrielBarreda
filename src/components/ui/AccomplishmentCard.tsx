@@ -3,12 +3,14 @@ import Badge from './Badge';
 
 interface AccomplishmentCardProps {
   item: SpiralItem;
+  onOpen?: (item: SpiralItem) => void;
 }
 
-export default function AccomplishmentCard({ item }: AccomplishmentCardProps) {
+export default function AccomplishmentCard({ item, onOpen }: AccomplishmentCardProps) {
   return (
     <div
       className="card-in"
+      onClick={() => onOpen?.(item)}
       style={{
         position: 'absolute',
         left: '28px',
@@ -24,6 +26,20 @@ export default function AccomplishmentCard({ item }: AccomplishmentCardProps) {
         zIndex: 50,
         display: 'flex',
         flexDirection: 'column',
+        cursor: onOpen ? 'pointer' : 'default',
+        transition: 'all 0.2s var(--ease-out)',
+      }}
+      onMouseEnter={(e) => {
+        if (onOpen) {
+          (e.currentTarget as HTMLElement).style.background = 'var(--surface-2)';
+          (e.currentTarget as HTMLElement).style.borderLeftColor = 'var(--white)';
+        }
+      }}
+      onMouseLeave={(e) => {
+        if (onOpen) {
+          (e.currentTarget as HTMLElement).style.background = 'var(--surface-1)';
+          (e.currentTarget as HTMLElement).style.borderLeftColor = 'var(--gold)';
+        }
       }}
     >
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
@@ -38,7 +54,7 @@ export default function AccomplishmentCard({ item }: AccomplishmentCardProps) {
       </h3>
 
       <p style={{ fontFamily: 'var(--font-body)', fontSize: '0.76rem', color: 'var(--muted)', lineHeight: 1.65, margin: 0 }}>
-        {item.desc}
+        {item.shortDesc || item.desc}
       </p>
     </div>
   );

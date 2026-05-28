@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Nav from '@/components/layout/Nav';
 import Home from '@/pages/Home';
 import ProjectDetail from '@/pages/ProjectDetail';
+import AccomplishmentDetail from '@/pages/AccomplishmentDetail';
 import About from '@/pages/About';
 import Contact from '@/pages/Contact';
 import ExPro from '@/pages/ExPro';
@@ -12,13 +13,19 @@ import '@/styles/global.css';
 export default function App() {
     const [page, setPage] = useState<PageName>('home');
     const [selectedProject, setSelectedProject] = useState<SpiralItem | null>(null);
+    const [selectedAccomplishment, setSelectedAccomplishment] = useState<SpiralItem | null>(null);
     const [selectedExperience, setSelectedExperience] = useState<ExperienceDetail | null>(null);
 
     const handleNavigate = (p: PageName) => setPage(p);
 
     const handleOpenProject = (item: SpiralItem) => {
-        setSelectedProject(item);
-        setPage('project');
+        if (item.kind === 'accomplishment') {
+            setSelectedAccomplishment(item);
+            setPage('accomplishment');
+        } else {
+            setSelectedProject(item);
+            setPage('project');
+        }
     };
 
     const handleOpenExperience = (exp: ExperienceDetail) => {
@@ -36,6 +43,14 @@ export default function App() {
 
             {page === 'project' && selectedProject && (
                 <ProjectDetail project={selectedProject} onBack={() => setPage('home')} />
+            )}
+
+            {page === 'accomplishment' && selectedAccomplishment && (
+                <AccomplishmentDetail
+                    accomplishment={selectedAccomplishment}
+                    onBack={() => setPage('home')}
+                    onNavigateToExPro={() => setPage('expro')}
+                />
             )}
 
             {page === 'about' && <About />}

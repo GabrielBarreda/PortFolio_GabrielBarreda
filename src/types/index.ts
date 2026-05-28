@@ -1,4 +1,4 @@
-export type PageName = 'home' | 'project' | 'about' | 'contact' | 'expro' | 'expro-detail';
+export type PageName = 'home' | 'project' | 'accomplishment' | 'about' | 'contact' | 'expro' | 'expro-detail';
 
 export interface PresentationBlock {
   type: 'text' | 'image';
@@ -24,6 +24,7 @@ export interface Accomplishment {
   id: string;
   year: number;
   title: string;
+  shortDesc: string;
   desc: string;
 }
 
@@ -35,6 +36,7 @@ export interface SpiralItem {
   title: string;
   cat?: string;
   summary?: string;
+  shortDesc?: string;
   desc?: string;
   highlights?: string[];
   tech?: string[];

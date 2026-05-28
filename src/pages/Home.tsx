@@ -42,7 +42,7 @@ export default function Home({ onNavigate: _onNavigate, onOpenProject }: HomePro
             onOpen={onOpenProject}
           />
         ) : (
-          <AccomplishmentCard item={ITEMS[hoveredIdx]} />
+          <AccomplishmentCard item={ITEMS[hoveredIdx]} onOpen={onOpenProject} />
         )
       )}
 
