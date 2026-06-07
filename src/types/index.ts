@@ -77,6 +77,7 @@ export interface MilestoneConfig {
 
 export interface PortfolioData {
   name: string;
+  surname: string;
   title: string;
   tagline: string;
   bio: string;

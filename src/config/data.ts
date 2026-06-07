@@ -8,19 +8,20 @@ import { presentation as p242 } from '@/components/detail/presentations/p24-2';
 
 export const DATA: PortfolioData = {
   name: "GABRIEL",
-  title: "Développeur Desktop & FullStack",
-  tagline: "Développeur passionné",
-  bio: "Spécialisé dans le développement desktop (client lourd), je combine une expertise desktop solide ainsi que des compétences fullstack.",
+  surname: "BARREDA",
+  title: "Développeur Logiciel métier & FullStack",
+  tagline: "Développeur .NET passioné ",
+  bio: "Spécialisé dans le développement Logiciel métier (client lourd), je combine une expertise desktop solide ainsi que de bonnes bases en fullstack.",
   skills: {
     "Web Frontend": ["React", "Three.js", "Angular", "Tailwind"],
-    "Web Backend": ["Node.js", "Express", "PostgreSQL"],
+    "Web Backend": ["C# ASP.NET", "Express", "PostgreSQL", "Entity Framework Core", "SQL Server", "SQLite"],
     "Expertise": [".Net", "Architecture Logicielle", "Client Lourd", "Applications Métier"],
     "Logiciel": ["WPF", "Entity Framework"]
   },
   contact: {
     email: "gabri.barreda@gmail.com",
     github: "https://github.com/GabrielBarreda",
-    linkedin: "..."
+    linkedin: "https://www.linkedin.com/in/gabriel-barreda-814919282/"
   },
   projects: [
     // 2026-2027 (B3 / M1 - deuxième année d'alternance)

@@ -1,4 +1,5 @@
 import type { PresentationBlock } from '@/types';
+import { SigboxDashboard1, SigboxOffre1, SigboxDevis1, Sigboxdevis2, SigboxPlanning, sigboxFactureLot } from '@/img';
 
 // Sigbox (Alternance Actulog) — 2024
 export const presentation: PresentationBlock[] = [
@@ -6,82 +7,75 @@ export const presentation: PresentationBlock[] = [
     type: 'text',
     content: `Durant mon alternance chez Actulog, j'ai contribué activement au développement de Sigbox — un ERP métier destiné aux cartonniers façonneurs, couvrant l'ensemble de leur chaîne commerciale et de production.
 
-Sigbox est le portage en technologie Microsoft du pro-logiciel Sigbox ToolBook. C'est un logiciel Client Lourd (C# / WPF / XAML) avec une architecture MVVM et un backend SQL Server. L'un des axes majeurs de mon travail a été de participer à la migration progressive de l'architecture MVC vers MVVM sur l'ensemble des modules.
-
-[capture écran: écran d'accueil / dashboard principal]`,
+Sigbox est le portage en technologie Microsoft du pro-logiciel Sigbox ToolBook. C'est un logiciel Client Lourd (C# / WPF / XAML) avec une architecture MVVM et un backend SQL Server. L'un des axes majeurs de mon travail a été de participer à la migration progressive de l'architecture MVC vers MVVM sur l'ensemble des modules.`,
   },
+  { type: 'image', content: SigboxDashboard1, caption: "Écran d'accueil - Dashboard principal" },
   {
     type: 'text',
-    content: `💼 Offre commerciale
+    content: `📋 Gestion des Devis
 
-Le module Offre permet aux équipes commerciales de gérer et envoyer les offres aux clients. J'ai contribué à l'évolution des écrans de saisie, à l'amélioration des flux de création et d'édition, ainsi qu'à la fiabilisation des processus d'envoi.
+Le module Devis est au cœur de la chaîne commerciale. Il permet de créer et gérer des devis simples et composés pour les clients. Un devis dans Sigbox correspond à une quantité spécifique ; plusieurs devis sont regroupés en OFFRE qui est transmise au client.
 
-[capture écran: module offre / création d'offre]`,
+La procédure de création guide l'utilisateur à travers :
+- Sélection du client et adresse de livraison
+- Saisie des articles avec gestion des quantités, prix d'achat, prix de vente et remises
+- Calcul automatique des marges et tarifs
+- Export en PDF, impression et envoi par email
+
+J'ai contribué à l'amélioration des écrans de saisie et des flux de calcul tarifaire.`,
   },
+  { type: 'image', content: SigboxDevis1, caption: "Module Devis - Création de devis" },
+  { type: 'image', content: Sigboxdevis2, caption: "Module Devis - Consultation et modification" },
   {
     type: 'text',
-    content: `🚛 Logistique
+    content: `💼 Module Offres
 
-Le module Logistique couvre le suivi des fabrications en atelier : saisie des palettes produites, constatation des matières premières consommées et clôture des ordres de fabrication. J'ai développé plusieurs écrans de ce module et participé à la refonte de certains flux de saisie.
+Le module Offres gère l'assemblage de plusieurs devis en une offre commerciale transmise au client. C'est le point de décision stratégique : le client sélectionne parmi les quantités et tarifs proposés pour passer sa commande.
 
-[capture écran: module logistique / suivi fabrication]`,
+Fonctionnalités :
+- Fusion d'offres (une offre sur un type de caisse avec déclinaison de quantité et prix)
+- Filtrage et suivi des offres (consultations, relances, statuts)
+- Gestion des modèles personnalisés selon les clients
+- Assistants pour optimiser l'offre
+- Intégration API pour enregistrement et transmission
+
+J'ai travaillé sur l'amélioration des flux de création et d'édition des offres commerciales.`,
   },
+  { type: 'image', content: SigboxOffre1, caption: "Module Offres - Création et gestion des offres" },
   {
     type: 'text',
-    content: `📦 Livraison
+    content: `🧾 Facturation en Lot
 
-Le module Livraison gère la préparation et l'expédition des commandes clients : palettisation, édition de la liasse logistique (bon de livraison, liste de colisage, étiquettes palettes) et transmission EDI. J'ai travaillé sur l'amélioration de l'ergonomie et l'automatisation de certaines étapes du processus d'expédition.
+Le module Facturation en Lot est un composant central pour la gestion de la facturation. C'est un processus complexe de traitement séquentiel qui génère et imprime en masse les factures clients.
 
-[capture écran: module livraison / préparation expédition]`,
+Capacités :
+- Génération de factures sur commande, bon de livraison, ou avancées
+- Filtrage par client ou période de facturation
+- Impression batch avec gestion des états de facturation (SOLDÉE, AVANCÉE)
+- Calcul automatique des montants et taxes
+- Interface intuitive avec cases à cocher pour la sélection
+
+J'ai développé plusieurs aspects techniques de ce module, notamment la gestion du processus de traitement séquentiel et les interfaces de sélection et de lancement de la facturation.`,
   },
+  { type: 'image', content: sigboxFactureLot, caption: "Module Facturation - Facturation en lot" },
   {
     type: 'text',
-    content: `🏭 Fournisseurs
+    content: `📅 Planning de Fabrication
 
-Le module Fournisseurs regroupe la gestion des onduleurs et fournisseurs de matière (plaques carton). Il inclut notamment la configuration des onduleuses, leurs tarifs et leurs quantités minimales — des données clés utilisées par le moteur d'achat lors du calcul des devis. J'ai contribué à la maintenance et à l'évolution de ce module.
+Le module Planning offre une vue Gantt de l'atelier de fabrication, permettant de visualiser et modifier les tâches machine en temps réel. Il s'appuie sur une bibliothèque Gantt personnalisée (nGantt) adaptée aux contraintes métier.
 
-[capture écran: module fournisseurs / configuration onduleuses]`,
+Fonctionnalités :
+- Visualisation des tâches (circuits de fabrication des Ordres de Fabrication)
+- Tâches color-codées par état (En attente, En cours, Complétée, etc.)
+- Drag & drop pour repositionner les tâches dans le planning
+- Fenêtre de détail : informations OF, opérateurs assignés, machines utilisées
+- Système d'alertes paramétrables (surcharge machine, retard, etc.)
+
+J'ai contribué au développement de la surcouche métier de cette bibliothèque et à l'implémentation des détails de tâche et des alertes.`,
   },
+  { type: 'image', content: SigboxPlanning, caption: "Module Planning - Vue Gantt de la fabrication" },
   {
     type: 'text',
-    content: `🧾 Facturation
-
-Deux composants distincts ont retenu mon attention sur la partie facturation.
-
-La Facturation en Lot permet de générer et imprimer en masse les factures clients (sur commande, sur bon de livraison, avancées), avec des critères de sélection par client ou par période. J'ai travaillé sur le développement de ce module qui implique un processus de traitement séquentiel assez complexe.
-
-La Remise en Banque permet quant à elle de regrouper et clôturer les règlements clients avant transmission bancaire. J'ai contribué à la mise en place de l'interface de recherche, des filtres et des fonctionnalités d'impression associées.
-
-[capture écran: module facturation / facturation en lot]`,
-  },
-  {
-    type: 'text',
-    content: `📬 Commandes
-
-Le module Commandes assure le suivi des commandes clients depuis la validation du devis jusqu'à la mise en fabrication. J'ai participé à l'évolution de certains écrans et à la fiabilisation des transitions entre les différents états d'une commande.
-
-[capture écran: module commandes / suivi des commandes]`,
-  },
-  {
-    type: 'text',
-    content: `📅 Planning
-
-Le module Planning offre une vue Gantt de l'atelier de fabrication, permettant de visualiser et déplacer les tâches machine en temps réel. Il s'appuie sur une bibliothèque Gantt personnalisée (nGantt) sur laquelle j'ai développé une surcouche métier adaptée aux contraintes de Sigbox.
-
-Les tâches représentent les circuits de fabrication des ordres (OF) et sont color-codées selon leur état. J'ai également travaillé sur la fenêtre de détail tâche (infos OF, opérateurs, machines) et sur les bases d'un système d'alertes paramétrables (surcharge machine, etc.).
-
-[capture écran: module planning / vue Gantt fabrication]`,
-  },
-  {
-    type: 'text',
-    content: `📐 Bureau d'Études (BE)
-
-Le module BE gère les demandes d'étude techniques — la conception et le dimensionnement des emballages carton sur mesure pour les clients. Chaque demande passe par un workflow structuré (non traitée → en cours → clôturée) avec un système de droits utilisateurs différenciés.
-
-J'ai contribué au développement de ce module en implémentant notamment la gestion des suites et clones de demandes, l'enrichissement des formulaires de saisie (propriétés volumiques, contraintes de palettisation, faisabilité industrielle) et la gestion des travaux associés à chaque demande.
-
-[capture écran: module BE / demandes d'étude techniques]
-
-🏗️ Stack technologique : C# / WPF | XAML | .NET Framework | MVVM pattern | SQL Server | Architecture Client Lourd`,
+    content: `🏗️ Stack technologique : C# / WPF | XAML | .NET Framework | MVVM pattern | SQL Server | Architecture Client Lourd`,
   },
 ];

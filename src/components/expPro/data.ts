@@ -20,7 +20,7 @@ export const EXPERIENCES: ExperienceDetail[] = [
     color: '#7eb8f7',
     icon: '',
     summary:
-      "Premier stage chez Actulog. Découverte d'un ERP Client Lourd WPF destiné aux cartonniers façonneurs (normes FEFCO). Premiers pas sur un vrai projet de production en C# / WPF / XAML.",
+      "Premier stage chez Actulog. Découverte d'un ERP Client Lourd WPF destiné aux cartonniers façonneurs.Ce fut Premiers pas sur un vrai projet de production en C# / WPF / XAML.",
     tech: ['C#', 'WPF', 'XAML', 'SQL Server', '.NET Framework'],
     missions: [
       "Prise en main du logiciel ERP (modules BE, planning, fabrication)",
@@ -33,11 +33,11 @@ export const EXPERIENCES: ExperienceDetail[] = [
       "Prise en main rapide du codebase WPF existant",
     ],
     context:
-      "Actulog est une PME bordelaise éditrice d'un ERP spécialisé pour le secteur du carton et de l'emballage (cartonniers façonneurs, normes FEFCO). Ce stage de fin de BTS SIO m'a permis de découvrir le développement applicatif professionnel sur un logiciel Client Lourd en production réelle.",
+      "Actulog est une PME bordelaise éditrice d'un ERP spécialisé pour le secteur des cartonniers transformateurs (Sigbox/Furio) en production et developpé en language ToolBook. Une refonte en C# / WPF / XAML était en cours. Ce stage m'a permis de participer activement au développement applicatif sur la refonte du logiciel et de prendre en main l'environnement .NET.",
     problems: [
-      "Adaptation à un codebase WPF de grande taille et déjà en production",
-      "Comprendre le métier des cartonniers façonneurs (BE, découpe, façonnage FEFCO)",
-      "Appréhender l'architecture MVC en place sans expérience préalable",
+      "Adaptation à partir du codebase ToolBook de grande taille et déjà en production",
+      "Comprendre le métier des cartonniers façonneurs (BE, découpe, façonnage FEFCO) ",
+      "Appréhender l'architecture MVC mise en place dans la nouvelle version en developpement.",
     ],
     solutions: [
       "Lecture intensive du code et de la documentation interne disponible",
@@ -62,16 +62,15 @@ export const EXPERIENCES: ExperienceDetail[] = [
     color: '#7ef7c2',
     icon: '',
     summary:
-      "Mission de renfort de 2 semaines pendant la Toussaint entre les deux stages. Contribution directe sur les modules offre/devis et maintenance de l'ERP.",
+      "Mission de renfort de 2 semaines pendant la Toussaint entre les deux stages. Contribution directe sur les modules commande et maintenance de l'ERP.",
     tech: ['C#', 'WPF', 'XAML', 'SQL Server', '.NET Framework'],
     missions: [
-      "Renfort sur les développements en cours (module offre/devis)",
+      "Renfort sur les développements en cours (module commande)",
       "Corrections et ajustements sur les fonctionnalités du stage 1",
-      "Participation aux tests de non-régression",
     ],
     achievements: [
       "Retour rapide opérationnel sur la codebase",
-      "Module offre/devis avancé de manière significative",
+      "Module commande avancé de manière significative",
     ],
     context:
       "Après le premier stage, l'équipe avait besoin d'un renfort ponctuel pendant les vacances de la Toussaint. Cette mission de 2 semaines a permis de maintenir ma montée en compétences entre les deux stages tout en renforçant la connaissance de l'ERP.",
@@ -84,7 +83,7 @@ export const EXPERIENCES: ExperienceDetail[] = [
       "Focus sur des tâches à fort impact et délai court",
     ],
     results: [
-      "Module offre/devis significativement avancé",
+      "Module commande significativement avancé",
       "Relation de confiance renforcée avec l'équipe",
     ],
     feedback:
@@ -94,19 +93,19 @@ export const EXPERIENCES: ExperienceDetail[] = [
     id: 'actulog-stage-2',
     company: 'Actulog',
     role: 'Stagiaire Développeur',
-    period: 'Début 2024 — 3 mois',
+    period: 'Début 2024 — 2 mois',
     location: 'Bordeaux',
     type: 'stage',
     color: '#f0c060',
     icon: '',
     summary:
-      "Second stage avec davantage d'autonomie. Développement end-to-end sur les modules planning et logistique. Début du travail sur la migration MVVM.",
+      "Second stage avec davantage d'autonomie. Développement end-to-end sur les modules logistique/fournisseur. Début du travail sur la migration MVVM.",
     tech: ['C#', 'WPF', 'XAML', '.NET Framework', 'MVVM', 'SQL Server', 'Git'],
     missions: [
-      "Développement de fonctionnalités complètes sur les modules planning et logistique",
+      "Développement de fonctionnalités complètes sur les modules logistique et fournisseur",
       "Premières contributions à la réflexion sur le passage MVC → MVVM",
       "Amélioration des bindings WPF et de la séparation logique/UI",
-      "Participation aux réunions de spécifications avec les référents métier",
+      "Participation aux réunions de spécifications avec le référent métier",
     ],
     achievements: [
       "Module logistique enrichi de plusieurs écrans complexes",
@@ -116,22 +115,21 @@ export const EXPERIENCES: ExperienceDetail[] = [
     context:
       "Suite au premier stage et à la mission Toussaint, ce second stage marque une vraie progression. Je suis beaucoup plus autonome, je comprends les enjeux métier et je commence à challenger l'architecture existante.",
     problems: [
-      "Gérer des modules plus complexes (planning avec contraintes métier fortes)",
+      "Gérer des modules plus complexes (logistique avec contraintes métier fortes)",
       "Initier la réflexion MVVM dans un contexte MVC legacy",
       "Travailler en binôme avec d'autres développeurs sur la même codebase",
     ],
     solutions: [
       "Documentation et prototypage des refactorisations MVVM avant implémentation",
       "Communication régulière avec l'équipe sur les choix techniques",
-      "Tests manuels approfondis sur les cas métier de planning (découpe, façonnage)",
+      "Tests manuels approfondis sur les cas métier de logistique (liasse logistique, génération QRcode, impression en lot...)",
     ],
     results: [
-      "Modules planning et logistique livrés et validés par les clients",
+      "Modules logistique et fournisseur livrés",
       "Base de la migration MVVM posée pour l'alternance",
-      "Évaluation de stage excellente",
     ],
     feedback:
-      "Ce second stage m'a mis en confiance. Je suis capable de porter des fonctionnalités de A à Z sur un ERP de production — un sentiment très différent du premier stage.",
+      "Ce second stage m'a mis en confiance. Je suis capable de porter des fonctionnalités de A à Z sur un ERP dont certains module sont en production — un sentiment très différent du premier stage.",
   },
   {
     id: 'actulog-alternance',
@@ -144,40 +142,41 @@ export const EXPERIENCES: ExperienceDetail[] = [
     color: '#f77e7e',
     icon: '',
     summary:
-      "Développeur à part entière sur l'ERP cartonniers/façonneurs. Migration complète MVC → MVVM, bindings avancés, développement sur l'ensemble des modules BE / planning / offre / fabrication / logistique.",
-    tech: ['C#', 'WPF', 'XAML', 'MVVM', 'SQL Server', '.NET', 'Entity Framework', 'Git', 'Azure DevOps'],
+      "Développeur à part entière sur l'ERP cartonniers/façonneurs. Migration complète MVC → MVVM, bindings avancés, développement sur l'ensemble des modules BE / planning / offre / fabrication / parametres.",
+    tech: ['C#', 'WPF', 'XAML', 'MVVM', 'SQL Server', '.NET', 'Entity Framework', 'Git'],
     missions: [
       "Migration architecture MVC → MVVM sur l'ensemble de l'ERP",
       "Développement de nouveaux écrans sur tout le périmètre (BE, planning, offre, fabrication, logistique)",
       "Participation aux décisions d'architecture technique",
-      "Collaboration directe avec les clients cartonniers/façonneurs",
-      "Maintenance corrective et évolutive",
+      "résolution de cases clients (résolution de bugs sur le progiciel en production)",
+      "rédaction de spécification déaillé",
     ],
     achievements: [
       "Migration MVC → MVVM menée à bien sur l'ensemble de l'ERP",
-      "Bindings WPF robustes et maintenables implémentés partout",
-      "Couverture complète de la chaîne ERP : BE → planning → fabrication → logistique",
+      "Bindings WPF robustes et maintenables implémentés partout",             
+      "Couverture complète de la chaîne ERP : offre → devis → commande → planning → fournisseur → fabrication → livraison → logistique → facture ...",
       "Référent technique junior reconnu au sein de l'équipe",
     ],
     context:
-      "L'alternance est la phase qui m'a transformé. Travailler 3 ans sur le même ERP WPF m'a permis d'atteindre une maîtrise très profonde du domaine métier (cartonniers FEFCO) et de la stack technique (C#/WPF/MVVM).",
+      "L'alternance est la phase qui m'a transformé. J'ai passé environ 1ans et 6 mois sur le même projet avec un excellent mentor avec lequel j'ai pus rapidement monter en compétence. Durant la fin de l'alternance j'ai également eu l'occasion de participer au support d'un second projet Web cette fois ci en PHP Symfony.",
     problems: [
-      "Migration MVVM progressive sans casser l'existant ni perturber l'équipe",
-      "Gérer la complexité métier du carton façonné (normes FEFCO, calculs BE)",
-      "Équilibrer rythme école / entreprise (1 sem / 2 sem)",
+      "Migration MVVM progressive",
+      "Gérer la complexité métier du carton façonné avec de plus en plus d'autonomie",
+      "Appréhender les framewrok et language d'un nouveau projet Web en parallèle (PHP Symfony)",
     ],
     solutions: [
       "Refactoring progressif module par module avec validation continue",
       "Documentation des ViewModels et des bindings pour faciliter la transmission",
-      "Implication forte dans les réunions de spécifications",
+      "Implication dans la résoltuon de cases clients pour comprendre les enjeux métier et les problématiques techniques du second projet en production",
     ],
     results: [
       "ERP entièrement passé en MVVM, codebase bien plus maintenable",
-      "Nouveaux modules livrés régulièrement en production",
       "Solide expertise métier carton/emballage acquise",
+      "Autonomie complète sur les développements et les décisions techniques",
+      "Adaptation rapide au second projet Web et contribution significative sur les résolutions de bugs en production",
     ],
     feedback:
-      "3 ans sur le même projet, c'est une chance rare : on comprend vraiment le métier, on maîtrise l'architecture dans ses moindres détails, et on mesure l'impact de chaque décision technique sur les utilisateurs finaux.",
+      "1 an et 6 mois sur le même projet en alternance, c'est une chance rare : on comprend vraiment le métier, on maîtrise l'architecture dans ses moindres détails, et on mesure l'impact de chaque décision technique sur les utilisateurs finaux.",
   },
 ];
 

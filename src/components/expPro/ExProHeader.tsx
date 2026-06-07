@@ -21,7 +21,7 @@ export default function ExProHeader() {
           fontSize: 'clamp(2.2rem, 5vw, 3.5rem)',
           letterSpacing: '-0.02em',
           color: 'var(--white)',
-          marginBottom: '10px',
+          marginBottom: '100px',
           marginTop: 0,
           lineHeight: 1.05,
         }}

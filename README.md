@@ -1,73 +1,91 @@
-# React + TypeScript + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# GABRIEL BARREDA
+### Portfolio — Développeur Logiciel Métier & FullStack
 
-Currently, two official plugins are available:
+<br/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
 
-## React Compiler
+<br/>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> *Développeur .NET passionné, spécialisé dans les applications métier (client lourd) avec de solides bases fullstack.*
 
-## Expanding the ESLint configuration
+</div>
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ✦ Présentation
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Ce repository héberge le code source de mon portfolio personnel, conçu pour présenter mon parcours, mes projets et mes compétences de manière immersive et soignée.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Le design s'inspire d'une esthétique **spatiale et minimaliste** — fond sombre, typographie monospace, animations fluides — pour refléter à la fois ma rigueur technique et ma sensibilité au détail.
+
+---
+
+## 🛸 Fonctionnalités
+
+- **Spiral de projets** — Navigation interactive à travers mes projets et accomplissements, organisés chronologiquement sur une spirale animée
+- **Pages détail** — Chaque projet dispose d'une fiche complète : contexte, stack, problématiques, solutions et résultats
+- **Parcours professionnel** — Une timeline spatiale présentant mon expérience sous forme de *roadmap* de missions
+- **Case Studies** — Pages d'analyse détaillée pour chaque expérience professionnelle
+- **À Propos** — Vue d'ensemble de mes compétences, organisées par domaine
+- **Contact** — Accès direct à mes coordonnées et réseaux
+
+---
+
+## 🧠 Stack & Compétences présentées
+
+### Développement Desktop & Métier
+`.NET` · `C#` · `WPF / MVVM` · `Entity Framework Core` · `SQL Server` · `SQLite`
+
+### Développement Web Frontend
+`React` · `TypeScript` · `Angular` · `Three.js` · `Tailwind CSS`
+
+### Développement Web Backend
+`C# ASP.NET` · `Express` · `PostgreSQL` · `NestJS`
+
+---
+
+## 🎨 Direction artistique
+
+| Choix | Détail |
+|---|---|
+| **Thème** | Dark mode — couleurs froides, accents bleu/or |
+| **Typographie** | Syne (display) · Space Grotesk (body) · DM Mono (code) |
+| **Animations** | Entrées fadeUp, micro-interactions, transitions fluides |
+| **Rendu 3D** | Spirale interactive via Canvas 2D |
+
+---
+
+## 📁 Structure du projet
+
+```
+src/
+├── components/     # Composants réutilisables (UI, layout, sections)
+├── config/         # Données du portfolio (projets, compétences, expériences)
+├── pages/          # Pages principales (Home, About, Contact, ExPro, détails)
+├── styles/         # Design system, tokens CSS, styles globaux
+├── hooks/          # Hooks React custom
+└── types/          # Types TypeScript partagés
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📬 Contact
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+<div align="center">
+
+**Gabriel Barreda**
+
+[gabri.barreda@gmail.com](mailto:gabri.barreda@gmail.com) · [GitHub](https://github.com/GabrielBarreda) · *En recherche d'alternance (rythme 1 sem / 2 sem)*
+
+</div>
+
+---
+
+<div align="center">
+<sub>Conçu & développé par Gabriel Barreda — 2025/2026</sub>
+</div>

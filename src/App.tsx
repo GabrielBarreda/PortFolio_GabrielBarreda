@@ -35,7 +35,11 @@ export default function App() {
 
     return (
         <div style={{ background: 'var(--bg)', minHeight: '100vh', color: 'var(--white)' }}>
-            <Nav currentPage={page} onNavigate={handleNavigate} />
+            <Nav
+                currentPage={page}
+                onNavigate={handleNavigate}
+                shrink={page !== 'home'}
+            />
 
             {page === 'home' && (
                 <Home onNavigate={handleNavigate} onOpenProject={handleOpenProject} />

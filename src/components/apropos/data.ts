@@ -5,10 +5,10 @@ export const APROPOS_DATA = {
   parcoursSectionTitle: "Parcours",
   skills: {
     "Web Frontend": ["React", "Three.js", "Angular", "Tailwind"],
-    "Web Backend": ["Node.js", "Express", "PostgreSQL"],
+    "Web Backend": ["C# ASP.NET", "Express", "PostgreSQL", "Entity Framework Core", "SQL Server", "SQLite"],
     "Mobile": ["Expo Go", "JavaScript"],
     "Expertise": [".Net", "Architecture Logicielle", "Client Lourd", "Applications Métier"],
-    "Logiciel": ["WPF", "C#", "XAML", "Entity Framework", "ToolBook"],
+    "Logiciel": ["WPF", "C#", "XAML", "ToolBook"],
   },
   parcours: [
     {
