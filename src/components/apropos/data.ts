@@ -6,9 +6,9 @@ export const APROPOS_DATA = {
   skills: {
     "Web Frontend": ["React", "Three.js", "Angular", "Tailwind"],
     "Web Backend": ["C# ASP.NET", "Express", "PostgreSQL", "Entity Framework Core", "SQL Server", "SQLite"],
-    "Mobile": ["Expo Go", "JavaScript"],
-    "Expertise": [".Net", "Architecture Logicielle", "Client Lourd", "Applications Métier"],
+    "Mobile": ["Flutter", "Dart"],
     "Logiciel": ["WPF", "C#", "XAML", "ToolBook"],
+    "Expertise": [".Net", "Architecture Logicielle", "Client Lourd", "Applications Métier"],
   },
   parcours: [
     {
@@ -24,10 +24,16 @@ export const APROPOS_DATA = {
       desc: "Première immersion chez Actulog (1 mois). Découverte du développement Client Lourd WPF sur un ERP métier pour cartonniers façonneurs.",
     },
     {
+      id: "acc-2023-1",
+      year: 2023,
+      title: "2ème stage Actulog",
+      desc: "Deuxième immersion chez Actulog (2 mois). Approfondissement des connaissances en développement WPF ainsi que en architecture logicielle.",
+    },
+    {
       id: "acc-2024-1",
       year: 2024,
       title: "Obtention du BTS SIO",
-      desc: "Validation du BTS SIO option SLAM avec 2e stage chez Actulog (2 mois). Migration MVC → MVVM sur les modules planning et logistique.",
+      desc: "Validation du BTS SIO option SLAM .",
     },
     {
       id: "acc-2024-2",
@@ -40,6 +46,12 @@ export const APROPOS_DATA = {
       year: 2025,
       title: "Obtention du Bachelor",
       desc: "Validation du Bachelor 3 à Ynov Campus Bordeaux.",
+    },
+    {
+      id: "acc-2026-2",
+      year: 2026,
+      title: "Master 1",
+      desc: "En cours d'année.",
     },
   ],
 };
