@@ -21,20 +21,10 @@
 
 Ce repository héberge le code source de mon portfolio personnel, conçu pour présenter mon parcours, mes projets et mes compétences de manière immersive et soignée.
 
-Le design s'inspire d'une esthétique **spatiale et minimaliste** — fond sombre, typographie monospace, animations fluides — pour refléter à la fois ma rigueur technique et ma sensibilité au détail.
+Le design s'inspire d'une esthétique **spatiale et minimaliste** — fond sombre, typographie monospace, animations fluides 
 
 ---
 
-## 🛸 Fonctionnalités
-
-- **Spiral de projets** — Navigation interactive à travers mes projets et accomplissements, organisés chronologiquement sur une spirale animée
-- **Pages détail** — Chaque projet dispose d'une fiche complète : contexte, stack, problématiques, solutions et résultats
-- **Parcours professionnel** — Une timeline spatiale présentant mon expérience sous forme de *roadmap* de missions
-- **Case Studies** — Pages d'analyse détaillée pour chaque expérience professionnelle
-- **À Propos** — Vue d'ensemble de mes compétences, organisées par domaine
-- **Contact** — Accès direct à mes coordonnées et réseaux
-
----
 
 ## 🧠 Stack & Compétences présentées
 
@@ -46,17 +36,6 @@ Le design s'inspire d'une esthétique **spatiale et minimaliste** — fond sombr
 
 ### Développement Web Backend
 `C# ASP.NET` · `Express` · `PostgreSQL` · `NestJS`
-
----
-
-## 🎨 Direction artistique
-
-| Choix | Détail |
-|---|---|
-| **Thème** | Dark mode — couleurs froides, accents bleu/or |
-| **Typographie** | Syne (display) · Space Grotesk (body) · DM Mono (code) |
-| **Animations** | Entrées fadeUp, micro-interactions, transitions fluides |
-| **Rendu 3D** | Spirale interactive via Canvas 2D |
 
 ---
 
