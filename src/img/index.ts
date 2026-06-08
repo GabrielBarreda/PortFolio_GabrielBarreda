@@ -19,3 +19,8 @@ export { default as sigboxFactureLot } from './sigboxFactureLot.png';
 export { default as CheerzUpBackOfficeDashboard } from './CheerzUpBackOfficeDashboard.png';
 export { default as CheerzUpBOGestionEquipe } from './CheerzUpBOGestionEquipe.png';
 export { default as CheerzUpBOGestionMenu } from './CheerzUpBOGestionMenu.png';
+
+// CRM Pharma
+export { default as DashboardCRMpharma } from './Dashboard_CRMpharma.png';
+export { default as PipelinKanbanCRMpharma } from './pipelinKanban_CRMpharma.png';
+export { default as WorkflowCRMpharma } from './worflow.jpeg';

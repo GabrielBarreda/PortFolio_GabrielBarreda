@@ -1,12 +1,20 @@
 import { APROPOS_DATA } from './data';
 
+type ParcourItem = typeof APROPOS_DATA.parcours[number];
+
+interface TimelineItemProps {
+  item: ParcourItem;
+  isLeft?: boolean;
+  isSplit?: boolean;
+}
+
 export default function ParcourSection() {
   // Séparer par branche
   const mainItems = APROPOS_DATA.parcours.filter(item => item.branch === 'main');
   const leftItems = APROPOS_DATA.parcours.filter(item => item.branch === 'left');
   const rightItems = APROPOS_DATA.parcours.filter(item => item.branch === 'right');
 
-  const TimelineItem = ({ item, isLeft = false, isSplit = false }) => (
+  const TimelineItem = ({ item }: TimelineItemProps) => (
     <div key={item.id} style={{ position: 'relative' }}>
       <div
         style={{

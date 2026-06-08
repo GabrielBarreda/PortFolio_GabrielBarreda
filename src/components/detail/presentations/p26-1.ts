@@ -1,5 +1,5 @@
 import type { PresentationBlock } from '@/types';
-import { CheerzUpBackOfficeDashboard, CheerzUpBOGestionEquipe, CheerzUpBOGestionMenu } from '@/img';
+import { CheerzUpBackOfficeDashboard, CheerzUpBOGestionEquipe } from '@/img';
 
 // CheerzUp (Projet Groupe) — 2026
 export const presentation: PresentationBlock[] = [
