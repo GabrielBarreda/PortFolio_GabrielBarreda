@@ -1,7 +1,7 @@
 import type { PortfolioData, SpiralItem } from '../types';
 import { presentation as p261 } from '@/components/detail/presentations/p26-1';
 import { presentation as p262 } from '@/components/detail/presentations/p26-2';
-import { presentation as p252 } from '@/components/detail/presentations/p25-2-dynamic-crm';
+import { presentation as p252 } from '@/components/detail/presentations/p25-2-crm-pharma';
 import { presentation as p253 } from '@/components/detail/presentations/p25-3';
 import { presentation as p241 } from '@/components/detail/presentations/p24-1';
 import { presentation as p242 } from '@/components/detail/presentations/p24-2';
@@ -14,7 +14,7 @@ export const DATA: PortfolioData = {
   bio: "Spécialisé dans le développement Logiciel métier (client lourd), je combine une expertise desktop solide ainsi que de bonnes bases en fullstack.",
   skills: {
     "Web Frontend": ["React", "Three.js", "Angular", "Tailwind"],
-    "Web Backend": ["C# ASP.NET", "Express", "PostgreSQL", "Entity Framework Core", "SQL Server", "SQLite"],
+    "Web Backend": ["C# ASP.NET",  "PostgreSQL", "Entity Framework Core", "SQL Server", "SQLite"],
     "Expertise": [".Net", "Architecture Logicielle", "Client Lourd", "Applications Métier"],
     "Logiciel": ["WPF", "Entity Framework"]
   },
@@ -29,7 +29,7 @@ export const DATA: PortfolioData = {
     { id: "p26-2", title: "FindNReplace VS (Projet Personnel)", cat: "Extension", year: 2026, color: "#787878ff", summary: "Extension VS pour recherche multi-ligne avancée.", desc: "Extension Visual Studio 2022+ pour recherche/remplacement multi-lignes avec générateur regex interactif. Port d'une extension VS Code vers C# / WPF avec architecture modulaire et tests complets.", highlights: ["C# / WPF", "VSSDK", "Regex", "Architecture"], tech: ["C#", "WPF", "XAML", ".NET 4.7.2"], presentation: p262 },
 
     // 2025 (B3 / M1 - première année d'alternance)
-    { id: "p25-2", title: "CRM (Projet Personnel)", cat: "Desktop", year: 2025, color: "#f7e57e", summary: "CRM pour courtiers en énergie.", desc: "Application WPF complète de gestion de relation client pour le secteur énergétique. Gestion clients/prospects, dossiers clients, suivi commercial et analyse comparative des tarifs fournisseurs. Frontend Angular/API NestJS prévus.", highlights: ["WPF/MVVM", "EF Core", "PostgreSQL", "Métier Énergie"], tech: ["C#", "WPF", ".NET 10", "Entity Framework Core", "PostgreSQL"], presentation: p252 },
+    { id: "p25-2", title: "CRM Pharma (Projet Personnel)", cat: "Fullstack", year: 2025, color: "#7ef7c4", summary: "CRM pour délégués pharmaceutiques terrain.", desc: "CRM en cours de développement pour délégués pharmaceutiques. Gestion de portefeuille officines, pipeline Kanban et app mobile Flutter. Automatisations IA via n8n + GPT-4o-mini (structuration CRs, relances, scoring clients).", highlights: ["ASP.NET Core 8", "Angular + Flutter", "n8n + GPT-4o-mini", "Clean Architecture"], tech: ["C#", "ASP.NET Core 8", "Angular 18", "Flutter", "n8n", "SQLite / PostgreSQL"], presentation: p252 },
     { id: "p25-3", title: "Designer Desktop (Projet Personnel)", cat: "Desktop", year: 2025, color: "#f77e7e", summary: "Designer Canva-like", desc: "Projet personnel de création de templates de documents avec éditeur visuel. Gestion des documents au format papier (A4, A5, Letter) avec support de multiples éléments (texte, image, code-barres) et liaison de données avancée.", highlights: [".NET", "WPF", "Template Engine"], tech: ["C#", "WPF", ".NET 8", "XAML"], presentation: p253 },
 
     // 2024 (fin BTS + début alternance Actulog)
