@@ -57,7 +57,7 @@ export default function Contact() {
             whiteSpace: 'pre-line',
           }}
         >
-          {"Travaillons\nensemble."}
+          {"En recherche\nd'alternance."}
         </h1>
         <p
           style={{
@@ -69,8 +69,7 @@ export default function Contact() {
             marginTop: 0,
           }}
         >
-          Disponible pour des missions freelance, opportunités en CDI, ou simplement pour échanger
-          autour d'un projet.
+          Je suis à la recherche d'une alternance pour compléter mon M2 (2026 - 2027) en tant que développeur. Intéressé par les postes en C#/.NET, développement web/fullstack. N'hésitez pas à me contacter !
         </p>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>

@@ -14,7 +14,7 @@ export const DATA: PortfolioData = {
   bio: "Spécialisé dans le développement Logiciel métier (client lourd), je combine une expertise desktop solide ainsi que de bonnes bases en fullstack.",
   skills: {
     "Web Frontend": ["React", "Three.js", "Angular", "Tailwind"],
-    "Web Backend": ["C# ASP.NET", "Express", "PostgreSQL", "Entity Framework Core", "SQL Server", "SQLite"],
+    "Web Backend": ["C# ASP.NET",  "PostgreSQL", "Entity Framework Core", "SQL Server", "SQLite"],
     "Expertise": [".Net", "Architecture Logicielle", "Client Lourd", "Applications Métier"],
     "Logiciel": ["WPF", "Entity Framework"]
   },
