@@ -1,6 +1,6 @@
 import type { PortfolioData, SpiralItem } from '../types';
 import { presentation as p261 } from '@/components/detail/presentations/p26-1';
-import { presentation as p262 } from '@/components/detail/presentations/p26-2';
+// import { presentation as p262 } from '@/components/detail/presentations/p26-2';
 import { presentation as p252 } from '@/components/detail/presentations/p25-2-crm-pharma';
 import { presentation as p253 } from '@/components/detail/presentations/p25-3';
 import { presentation as p241 } from '@/components/detail/presentations/p24-1';
