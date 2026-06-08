@@ -142,7 +142,7 @@ export default function ExPro({ onNavigate: _onNavigate, onOpenDetail, onOpenPro
           >
             3 ans chez Actulog m'ont forgé comme développeur Client Lourd spécialisé en C# / WPF / .NET sur un ERP métier.
             C'est l'école, les projets de groupe et mes développements personnels (TaskManager, CheerzUp, CRM) qui m'ont apporté les compétences Fullstack, React, NestJS et CICD.
-            Je suis aujourd'hui en recherche d'alternance pour continuer à developper mes compétance au sein d'une nouvelle équipe
+            Je suis aujourd'hui en recherche d'alternance pour continuer à developper mes compétences au sein d'une nouvelle équipe
           </p>
         </div>
       </div>

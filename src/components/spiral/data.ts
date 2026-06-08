@@ -13,7 +13,7 @@ export const SPIRAL_SECTIONS: Record<string, SpiralSection> = {
   },
   "2025": {
     period: "2025 – 2026",
-    summary: "Actuellement en Master 1 en alternance chez Ynov Campus Bordeaux, Suite à la liquidation de la société qui m'employait jusqu'à présent, je suis actuellement à la recherche d'une nouvelle entreprise afin d'effectuer ma dernière année d'alternance.",
+    summary: "Actuellement en Master 1 en alternance chez Ynov Campus Bordeaux, suite à la liquidation de la société qui m'employait jusqu'à présent, je suis actuellement à la recherche d'une nouvelle entreprise afin d'effectuer ma dernière année d'alternance.",
     bgTint: "rgba(10, 130, 90, 0.11)",
   },
   "2024": {
@@ -23,7 +23,7 @@ export const SPIRAL_SECTIONS: Record<string, SpiralSection> = {
   },
   "2023": {
     period: "2023 – 2024",
-    summary: "Suite à mon premier Stage j'ai donc pu passer en deuxième année, faire un second stage et valider mon BTS SIO.",
+    summary: "Suite à mon premier stage j'ai donc pu passer en deuxième année, faire un second stage et valider mon BTS SIO.",
     bgTint: "rgba(170, 130, 10, 0.10)",
   },
   "2022": {

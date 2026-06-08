@@ -15,7 +15,7 @@ export const APROPOS_DATA = {
       id: "acc-2022-1",
       year: 2022,
       title: "Baccalauréat général",
-      desc: "Validation du baccalauréat Option Maths et NSI.",
+      desc: "Validation du baccalauréat options Maths et NSI.",
       branch: "main",
     },
     {
@@ -36,7 +36,7 @@ export const APROPOS_DATA = {
       id: "acc-2024-1",
       year: 2024,
       title: "Obtention du BTS SIO",
-      desc: "Validation du BTS SIO option SLAM .",
+      desc: "Validation du BTS SIO option SLAM.",
       branch: "main",
     },
     {

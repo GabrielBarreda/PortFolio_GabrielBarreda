@@ -10,8 +10,8 @@ export const DATA: PortfolioData = {
   name: "GABRIEL",
   surname: "BARREDA",
   title: "Développeur Logiciel métier & FullStack",
-  tagline: "Développeur .NET passioné ",
-  bio: "Spécialisé dans le développement Logiciel métier (client lourd), je combine une expertise desktop solide ainsi que de bonnes bases en fullstack.",
+  tagline: "Développeur .NET passionné",
+  bio: "Spécialisé dans le développement Logiciel métier (client lourd), je combine une expertise desktop solide ainsi que de bonnes bases en fullstack web .",
   skills: {
     "Web Frontend": ["React", "Three.js", "Angular", "Tailwind"],
     "Web Backend": ["C# ASP.NET",  "PostgreSQL", "Entity Framework Core", "SQL Server", "SQLite"],
@@ -46,7 +46,7 @@ export const DATA: PortfolioData = {
       year: 2022,
       title: "Baccalauréat général",
       shortDesc: "Au cours de ma scolarité au Lycée Fernand Daguin (Mérignac), j'ai pu valider le baccalauréat général avec options Mathématiques, Numérique et Sciences Informatiques (NSI).",
-      desc: "Au cours de ma scolarité au Lycée Fernand Daguin (Mérignac), j'ai pu valider le baccalauréat général avec specialisations Mathématiques et Numérique & Sciences Informatiques (NSI). En première, j'avais également choisi Sciences Économiques et Sociales (SES), mais en terminale, la sélection imposée de deux spécialités m'a amené à délaisser SES pour approfondir davantage ma formation informatique, confirmant ainsi mon orientation progressive.<br><br>J'ai également profité de ces années lycéennes pour passer mon BAFA auprès de différents organismes, dont REMPART. Cette implication m'a permis de développer des compétences d'encadrement et de responsabilité au-delà du cadre scolaire strictement académique.<br><br>L'épreuve orale du baccalauréat a porté sur une thématique spatiale — élément qui inspire aujourd'hui de manière notable la direction visuelle et thématique de ce portfolio. Cette période représente avant tout une phase d'exploration générale des domaines informatiques et scientifiques, sans attrait décisif particulier pour le développement logiciel professionnel. L'intérêt s'est manifesté davantage sur les aspects mathématiques, algorithmiques et scientifiques."
+      desc: "Au cours de ma scolarité au Lycée Fernand Daguin (Mérignac), j'ai pu valider le baccalauréat général avec spécialisations Mathématiques et Numérique & Sciences Informatiques (NSI). En première, j'avais également choisi Sciences Économiques et Sociales (SES), mais en terminale, la sélection imposée de deux spécialités m'a amené à délaisser SES pour approfondir davantage ma formation informatique, confirmant ainsi mon orientation progressive.<br><br>J'ai également profité de ces années lycéennes pour passer mon BAFA auprès de différents organismes, dont REMPART. Cette implication m'a permis de développer des compétences d'encadrement et de responsabilité au-delà du cadre scolaire strictement académique.<br><br>L'épreuve orale du baccalauréat a porté sur une thématique spatiale — élément qui inspire aujourd'hui de manière notable la direction visuelle et thématique de ce portfolio. Cette période représente avant tout une phase d'exploration générale des domaines informatiques et scientifiques, sans attrait décisif particulier pour le développement logiciel professionnel. L'intérêt s'est manifesté davantage sur les aspects mathématiques, algorithmiques et scientifiques."
     },
     {
       id: "acc-2024-1",

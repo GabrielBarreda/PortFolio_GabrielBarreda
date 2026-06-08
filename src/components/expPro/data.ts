@@ -20,7 +20,7 @@ export const EXPERIENCES: ExperienceDetail[] = [
     color: '#7eb8f7',
     icon: '',
     summary:
-      "Premier stage chez Actulog. Découverte d'un ERP Client Lourd WPF destiné aux cartonniers façonneurs.Ce fut Premiers pas sur un vrai projet de production en C# / WPF / XAML.",
+      "Premier stage chez Actulog. Découverte d'un ERP Client Lourd WPF destiné aux cartonniers façonneurs. Ce furent mes premiers pas sur un vrai projet de production en C# / WPF / XAML.",
     tech: ['C#', 'WPF', 'XAML', 'SQL Server', '.NET Framework'],
     missions: [
       "Prise en main du logiciel ERP (modules BE, planning, fabrication)",
@@ -33,11 +33,11 @@ export const EXPERIENCES: ExperienceDetail[] = [
       "Prise en main rapide du codebase WPF existant",
     ],
     context:
-      "Actulog est une PME bordelaise éditrice d'un ERP spécialisé pour le secteur des cartonniers transformateurs (Sigbox/Furio) en production et developpé en language ToolBook. Une refonte en C# / WPF / XAML était en cours. Ce stage m'a permis de participer activement au développement applicatif sur la refonte du logiciel et de prendre en main l'environnement .NET.",
+      "Actulog est une PME bordelaise éditrice d'un ERP spécialisé pour le secteur des cartonniers transformateurs (Sigbox/Furio) en production et développé en langage ToolBook. Une refonte en C# / WPF / XAML était en cours. Ce stage m'a permis de participer activement au développement applicatif sur la refonte du logiciel et de prendre en main l'environnement .NET.",
     problems: [
       "Adaptation à partir du codebase ToolBook de grande taille et déjà en production",
       "Comprendre le métier des cartonniers façonneurs (BE, découpe, façonnage FEFCO) ",
-      "Appréhender l'architecture MVC mise en place dans la nouvelle version en developpement.",
+      "Appréhender l'architecture MVC mise en place dans la nouvelle version en développement.",
     ],
     solutions: [
       "Lecture intensive du code et de la documentation interne disponible",
@@ -129,7 +129,7 @@ export const EXPERIENCES: ExperienceDetail[] = [
       "Base de la migration MVVM posée pour l'alternance",
     ],
     feedback:
-      "Ce second stage m'a mis en confiance. Je suis capable de porter des fonctionnalités de A à Z sur un ERP dont certains module sont en production — un sentiment très différent du premier stage.",
+      "Ce second stage m'a mis en confiance. Je suis capable de porter des fonctionnalités de A à Z sur un ERP dont certains modules sont en production — un sentiment très différent du premier stage.",
   },
   {
     id: 'actulog-alternance',
@@ -142,14 +142,14 @@ export const EXPERIENCES: ExperienceDetail[] = [
     color: '#f77e7e',
     icon: '',
     summary:
-      "Développeur à part entière sur l'ERP cartonniers/façonneurs. Migration complète MVC → MVVM, bindings avancés, développement sur l'ensemble des modules BE / planning / offre / fabrication / parametres.",
+      "Développeur à part entière sur l'ERP cartonniers/façonneurs. Migration complète MVC → MVVM, bindings avancés, développement sur l'ensemble des modules BE / planning / offre / fabrication / paramètres.",
     tech: ['C#', 'WPF', 'XAML', 'MVVM', 'SQL Server', '.NET', 'Entity Framework', 'Git'],
     missions: [
       "Migration architecture MVC → MVVM sur l'ensemble de l'ERP",
       "Développement de nouveaux écrans sur tout le périmètre (BE, planning, offre, fabrication, logistique)",
       "Participation aux décisions d'architecture technique",
-      "résolution de cases clients (résolution de bugs sur le progiciel en production)",
-      "rédaction de spécification déaillé",
+      "Résolution de cases clients (correction de bugs sur le progiciel en production)",
+      "Rédaction de spécifications détaillées",
     ],
     achievements: [
       "Migration MVC → MVVM menée à bien sur l'ensemble de l'ERP",
@@ -158,16 +158,16 @@ export const EXPERIENCES: ExperienceDetail[] = [
       "Référent technique junior reconnu au sein de l'équipe",
     ],
     context:
-      "L'alternance est la phase qui m'a transformé. J'ai passé environ 1ans et 6 mois sur le même projet avec un excellent mentor avec lequel j'ai pus rapidement monter en compétence. Durant la fin de l'alternance j'ai également eu l'occasion de participer au support d'un second projet Web cette fois ci en PHP Symfony.",
+      "L'alternance est la phase qui m'a transformé. J'ai passé environ 1 an et 6 mois sur le même projet avec un excellent mentor avec lequel j'ai pu rapidement monter en compétence. Durant la fin de l'alternance j'ai également eu l'occasion de participer au support d'un second projet Web cette fois ci en PHP Symfony.",
     problems: [
       "Migration MVVM progressive",
       "Gérer la complexité métier du carton façonné avec de plus en plus d'autonomie",
-      "Appréhender les framewrok et language d'un nouveau projet Web en parallèle (PHP Symfony)",
+      "Appréhender les frameworks et langages d'un nouveau projet Web en parallèle (PHP Symfony)",
     ],
     solutions: [
       "Refactoring progressif module par module avec validation continue",
       "Documentation des ViewModels et des bindings pour faciliter la transmission",
-      "Implication dans la résoltuon de cases clients pour comprendre les enjeux métier et les problématiques techniques du second projet en production",
+      "Implication dans la résolution de cases clients pour comprendre les enjeux métier et les problématiques techniques du second projet en production",
     ],
     results: [
       "ERP entièrement passé en MVVM, codebase bien plus maintenable",
