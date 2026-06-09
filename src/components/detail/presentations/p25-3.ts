@@ -1,5 +1,5 @@
 import type { PresentationBlock } from '@/types';
-import { TemplateDesigner1, TemplateDesigner2 } from '@/img';
+import { TemplateDesigner1, TemplateDesigner2, TemplateDesignerItems, TemplateDesignerParamDoc, TemplateDesignerProprietes } from '@/img';
 
 // Designer Desktop (Projet Personnel) — 2025
 export const presentation: PresentationBlock[] = [
@@ -44,10 +44,9 @@ L'utilisateur peut composer son template par glisser-déposer d'éléments :
 ├── 🖼️ Image (logo, photo, signature)
 ├── 📊 Code-barres (QR Code, Code 128, EAN13)
 ├── 🏁 Grille (organisation en tableau)
-└── ☰ StackPanel (empilement horizontal/vertical)
-
-[capture écran: palette éléments / toolbox / éléments disponibles]`,
+└── ☰ StackPanel (empilement horizontal/vertical)`,
   },
+  { type: 'image', content: TemplateDesignerItems, caption: "Palette d'éléments disponibles" },
   {
     type: 'text',
     content: `🧩 Gestion de la disposition
@@ -56,22 +55,19 @@ J'ai ajouté des conteneurs intelligents :
 - Grille : Organisation en lignes et colonnes, comme un tableau
 - StackPanel : Empilement automatique (horizontal ou vertical)
 
-[capture écran: palette éléments / conteneurs / grille layout]
+⚙️ Personnalisation & Propriétés
 
-⚙️ Personnalisation
-
-Une page de paramètres permet à l'utilisateur de :
-- Régler ses propres raccourcis clavier
-- Changer le thème (clair/sombre)
-- Configurer le comportement de l'application
-
-[capture écran: paramètres / préférences utilisateur]
-
-🔗 Liaison de données (Mapping)
+Un panneau de propriétés contextuel permet de configurer chaque élément sélectionné : position, taille, couleurs, police, bordures, coins arrondis. Une page de paramètres globaux permet également de régler les raccourcis clavier, le thème (clair/sombre) et le comportement de l'application.`,
+  },
+  { type: 'image', content: TemplateDesignerProprietes, caption: "Panneau de propriétés d'un élément" },
+  {
+    type: 'text',
+    content: `🔗 Liaison de données (Mapping)
 
 Le template peut être lié à des données externes via un système de binding :
 - Chargement d'une classe métier
 - Sélection d'une propriété depuis l'arborescence
 - Liaison automatique avec un élément de texte dynamique`,
   },
+  { type: 'image', content: TemplateDesignerParamDoc, caption: "Paramètres et gestion des documents" },
 ];

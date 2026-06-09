@@ -1,4 +1,5 @@
 import type { PresentationBlock } from '@/types';
+import { CRMEnergieDashboard, CRMEnergieTauxFournisseur, CRMEnergieMail } from '@/img';
 
 // CRM (Projet Personnel) — 2025
 export const presentation: PresentationBlock[] = [
@@ -8,11 +9,10 @@ export const presentation: PresentationBlock[] = [
 
 Le CRM gère le cycle complet du courtier : prospection, qualification clients, suivi contrats énergétiques, relances automatisées et génération de dossiers de comparaison tarifaire pour négocier les meilleurs prix auprès des fournisseurs.`,
   },
+  { type: 'image', content: CRMEnergieDashboard, caption: "Dashboard principal — vue portefeuille clients" },
   {
     type: 'text',
-    content: `[capture écran: accueil CRM / dashboard principal]
-
-👥 Gestion Clients & Multi-sites
+    content: `👥 Gestion Clients & Multi-sites
 
 Le cœur du métier : chaque client peut être particulier ou professionnel, mono-site ou multi-site (5-50 sites typiquement).
 
@@ -28,9 +28,7 @@ Architecture : chaque Client peut avoir plusieurs AdresseClient (multi-site), ch
   },
   {
     type: 'text',
-    content: `[capture écran: fiche client détaillée / adresses multi-sites]
-
-⚡ Données Énergie & Tarification
+    content: `⚡ Données Énergie & Tarification
 
 Le CRM gère les spécificités énergétiques que les courtiers manipulent quotidiennement :
 
@@ -55,11 +53,10 @@ Le CRM gère les spécificités énergétiques que les courtiers manipulent quot
 - Extraction données EPEX spot (prix horaires marché)
 - Calcul automatique du gain potentiel (enjeu clé pour négociation)`,
   },
+  { type: 'image', content: CRMEnergieTauxFournisseur, caption: "Comparaison tarifaire multi-fournisseurs" },
   {
     type: 'text',
-    content: `[capture écran: tableau comparaison fournisseurs / détail tarifs]
-
-📂 Gestion Dossiers & Documents
+    content: `📂 Gestion Dossiers & Documents
 
 Organisation des dossiers clients et documents métier :
 - Dossiers Windows structurés par client (organisation locale)
@@ -69,9 +66,7 @@ Organisation des dossiers clients et documents métier :
   },
   {
     type: 'text',
-    content: `[capture écran: sélection dossiers clients / structure arborescence]
-
-📧 Suivi Commercial & Alertes
+    content: `📧 Suivi Commercial & Alertes
 
 Gestion du pipeline commercial et relances intelligentes :
 
@@ -93,11 +88,10 @@ Gestion du pipeline commercial et relances intelligentes :
 - Historique des relances (dates, type, résultat)
 - Intégration email basique (MailKit)`,
   },
+  { type: 'image', content: CRMEnergieMail, caption: "Module follow-up — alertes et relances email" },
   {
     type: 'text',
-    content: `[capture écran: module follow-up / alertes relance]
-
-📊 Analytics & Tableau de Bord
+    content: `📊 Analytics & Tableau de Bord
 
 Visualisations commerciales avec LiveChartsCore :
 
@@ -120,9 +114,7 @@ Visualisations commerciales avec LiveChartsCore :
   },
   {
     type: 'text',
-    content: `[capture écran: dashboard analytics / charts commission et CA]
-
-⚙️ Architecture & Infrastructure
+    content: `⚙️ Architecture & Infrastructure
 
 Architecture robuste pour usage quotidien intensif (100-500 dossiers/courtier/an) :
 
@@ -147,9 +139,7 @@ Architecture robuste pour usage quotidien intensif (100-500 dossiers/courtier/an
   },
   {
     type: 'text',
-    content: `[capture écran: architecture MVVM / diagramme modèles]
-
-💾 Modèle de Données Métier
+    content: `💾 Modèle de Données Métier
 
 Entités principales capturant la réalité du courtage :
 
@@ -186,9 +176,7 @@ FollowUp
   },
   {
     type: 'text',
-    content: `[capture écran: ERD modèle données / relations entités]
-
-🚀 Roadmap Technique (En cours)
+    content: `🚀 Roadmap Technique (En cours)
 
 Phase 1 — Fondations critiques (3-4 semaines en cours)
 ✅ Gestion documentaire réelle (OCR factures, stockage BD)
@@ -212,10 +200,6 @@ Phase 4 — Portail Client Web (après Phase 1-3 stable)
 ⏱️ Frontend Angular + API NestJS
 ⏱️ Upload documents clients
 ⏱️ Consultation contrats/tarifs`,
-  },
-  {
-    type: 'text',
-    content: `[capture écran: kanban pipeline / états dossiers]`,
   },
   {
     type: 'text',

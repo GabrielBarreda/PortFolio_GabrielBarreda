@@ -158,22 +158,22 @@ export const EXPERIENCES: ExperienceDetail[] = [
       "Référent technique junior reconnu au sein de l'équipe",
     ],
     context:
-      "L'alternance est la phase qui m'a transformé. J'ai passé environ 1 an et 6 mois sur le même projet avec un excellent mentor avec lequel j'ai pu rapidement monter en compétence. Durant la fin de l'alternance j'ai également eu l'occasion de participer au support d'un second projet Web cette fois ci en PHP Symfony.",
+      "L'alternance est la phase qui m'a transformé. J'ai passé environ 1 an et 6 mois sur Sigbox avec un excellent mentor, ce qui m'a permis de monter rapidement en compétence sur le C# / WPF / MVVM et l'architecture logicielle. En toute fin d'alternance, j'ai ponctuellement participé au support d'un second projet — une application web en PHP Symfony 4 — pour des corrections de bugs en production.",
     problems: [
-      "Migration MVVM progressive",
+      "Migration MVVM progressive sur une codebase WPF déjà en production",
       "Gérer la complexité métier du carton façonné avec de plus en plus d'autonomie",
-      "Appréhender les frameworks et langages d'un nouveau projet Web en parallèle (PHP Symfony)",
+      "Intervenir ponctuellement sur un projet PHP Symfony 4 avec un contexte nouveau",
     ],
     solutions: [
       "Refactoring progressif module par module avec validation continue",
       "Documentation des ViewModels et des bindings pour faciliter la transmission",
-      "Implication dans la résolution de cases clients pour comprendre les enjeux métier et les problématiques techniques du second projet en production",
+      "Lecture du code existant et échanges avec l'équipe pour monter rapidement sur le projet Symfony",
     ],
     results: [
       "ERP entièrement passé en MVVM, codebase bien plus maintenable",
-      "Solide expertise métier carton/emballage acquise",
-      "Autonomie complète sur les développements et les décisions techniques",
-      "Adaptation rapide au second projet Web et contribution significative sur les résolutions de bugs en production",
+      "Solide expertise métier carton/emballage et architecture WPF acquise",
+      "Autonomie complète sur les développements C# / WPF",
+      "Contribution ponctuelle sur les corrections de bugs du projet Symfony en production",
     ],
     feedback:
       "1 an et 6 mois sur le même projet en alternance, c'est une chance rare : on comprend vraiment le métier, on maîtrise l'architecture dans ses moindres détails, et on mesure l'impact de chaque décision technique sur les utilisateurs finaux.",

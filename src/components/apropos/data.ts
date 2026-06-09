@@ -43,7 +43,7 @@ export const APROPOS_DATA = {
       id: "acc-2024-2",
       year: "oct 2024 - fév 2026",
       title: "Alternance B3 / M1",
-      desc: "Alternance ~2 ans chez Actulog en tant que développeur à part entière. Migration MVVM complète, développement fullstack sur tous les modules ERP.",
+      desc: "Alternance ~2 ans chez Actulog en tant que développeur C# / WPF à part entière. Migration MVVM complète sur l'ERP Sigbox, développement sur tous les modules métier.",
       branch: "left",
     },
     {
