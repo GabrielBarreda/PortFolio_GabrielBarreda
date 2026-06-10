@@ -13,7 +13,7 @@ export const SPIRAL_SECTIONS: Record<string, SpiralSection> = {
   },
   "2025": {
     period: "2025 – 2026",
-    summary: "Actuellement en Master 1 en alternance chez Ynov Campus Bordeaux, suite à la liquidation de la société qui m'employait jusqu'à présent, je suis actuellement à la recherche d'une nouvelle entreprise afin d'effectuer ma dernière année d'alternance.",
+    summary: "Actuellement en Master 1 à Ynov Campus Bordeaux, je suis à la recherche d'une entreprise pour effectuer ma dernière année d'alternance en Master 2.",
     bgTint: "rgba(10, 130, 90, 0.11)",
   },
   "2024": {
@@ -33,12 +33,12 @@ export const SPIRAL_SECTIONS: Record<string, SpiralSection> = {
   },
   "2021": {
     period: "2018 – 2022",
-    summary: "J'ai pu effectuer ma période lycée au sein du lycée Fernand Daguin, où j'ai obtenu mon Baccalauréat général option Mathématiques et Sciences de l'Informatique.",
+    summary: "J'ai pu effectuer ma période lycée au sein du lycée Fernand Daguin, où j'ai obtenu mon Baccalauréat général avec les spécialités Mathématiques et Numérique & Sciences Informatiques (NSI).",
     bgTint: "rgba(5, 8, 35, 0.18)",
   },
   "2020": {
     period: "2018 – 2022",
-    summary: "J'ai pu effectuer ma période lycée au sein du lycée Fernand Daguin, où j'ai obtenu mon Baccalauréat général option Mathématiques et Sciences de l'Informatique.",
+    summary: "J'ai pu effectuer ma période lycée au sein du lycée Fernand Daguin, où j'ai obtenu mon Baccalauréat général avec les spécialités Mathématiques et Numérique & Sciences Informatiques (NSI).",
     bgTint: "rgba(5, 8, 35, 0.18)",
   },
 };

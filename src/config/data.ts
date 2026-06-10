@@ -12,7 +12,7 @@ export const DATA: PortfolioData = {
   surname: "BARREDA",
   title: "Développeur Logiciel métier & FullStack",
   tagline: "Développeur .NET passionné",
-  bio: "Spécialisé dans le développement Logiciel métier (client lourd), je combine une expertise desktop solide ainsi que de bonnes bases en fullstack web .",
+  bio: "Spécialisé dans le développement Logiciel métier (client lourd), je combine une expertise desktop solide ainsi que de bonnes bases en fullstack web.",
   skills: {
     "Web Frontend": ["React", "Three.js", "Angular", "Tailwind"],
     "Web Backend": ["C# ASP.NET",  "PostgreSQL", "Entity Framework Core", "SQL Server", "SQLite"],
